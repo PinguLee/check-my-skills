@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #4a4a4a;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,10 +1,12 @@
 import React from 'react';
-import '../styles/styles.scss';
+import Box from './Box/Box.jsx';
+import './App.scss';
 
 const App = () => {
   return (
-    <div>
-
+    <div className='container'>
+    <Box>1</Box>
+    <Box>2</Box>
     </div>
   );
 };
