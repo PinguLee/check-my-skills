@@ -1,3 +1,11 @@
+$width-one-third: 100% / 3;
+$width-test: ($width-one-third * 2) / 3;
+
+li {
+  list-style: none;
+  list-style-type: none;
+}
+
 .App {
   display: flex;
   height: 100vh;
@@ -5,4 +13,30 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.color-red {
+  color: red;
+}
+
+.one1 {
+  background-color: white;
+  padding: 10px;
+}
+
+.one2 {
+  width: $width-one-third * 2;
+  padding: 10px;
+}
+
+.one1,
+.two1 {
+  width: $width-one-third;
+}
+
+.two2 {
+  width: $width-test * 2;
+}
+.two3 {
+  width: $width-test;
 }

@@ -1,14 +1,8 @@
-import React from 'react';
-import './Container.scss';
+import React from "react";
+import "./Container.scss";
 
-function Container() {
-  return (
-    <div>
-      <div>
-
-      </div>
-    </div>
-  );
-};
+function Container({ children }) {
+  return <div className="Container">{children}</div>;
+}
 
 export default Container;
