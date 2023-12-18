@@ -19,14 +19,24 @@ li {
   color: red;
 }
 
-.one1 {
+.bgc-white {
   background-color: white;
+}
+
+.bgc-aquamarine {
+  background-color: aquamarine;
+}
+
+.padding-10px {
   padding: 10px;
+}
+
+.gap-10px {
+  gap: 10px;
 }
 
 .one2 {
   width: $width-one-third * 2;
-  padding: 10px;
 }
 
 .one1,

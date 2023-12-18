@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Container>
-        <div class="one1">
+        <div class="one1 bgc-white padding-10px">
           <h2>
             <span className="color-red">기본</span>이란 무엇인가?
           </h2>
@@ -21,7 +21,7 @@ function App() {
             빠른 지름길이다.
           </p>
         </div>
-        <div class="one2">
+        <div class="one2 padding-10px">
           <div>
             <h2>기본이 중요한 이유</h2>
           </div>
@@ -35,7 +35,6 @@ function App() {
             우리가 자주 이야기하는 중요하지만 긴급하지 않은 그 무엇이 기본이
             아닐까 한다. 최근 삶에서 기본이 얼마나 중요한지를 되새기게 하는 몇
             가지 일들이 있었다. 최근 깨닫게 된 것은 기본이 제대로 돼있지 않으면
-            아무리 연습을 해도 실력이 향상되기는 어렵다는 것이다.
             <h3>나에게 필요한 기본</h3>
             <li>시간 약속 잘지키기</li>
             <li>주말 의미 없이 보내지 않기</li>
@@ -46,12 +45,14 @@ function App() {
         </div>
       </Container>
       <Container>
-        <div class="two1">Nest.JS, Next.js 를 위한 서버 클라이언트 분리 예행 연습</div>
-        <div class="two2">
+        <div class="two1 bgc-aquamarine padding-10px">
+          Nest.JS, Next.js 를 위한 서버 클라이언트 분리 예행 연습
+        </div>
+        <div class="two2 bgc-aquamarine padding-10px">
           <div>리액트 컴포넌트 분리 연습</div>
           <div></div>
         </div>
-        <div class="two3">scss 연습</div>
+        <div class="two3 bgc-aquamarine padding-10px">scss 연습</div>
       </Container>
     </div>
   );
