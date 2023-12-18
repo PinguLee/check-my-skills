@@ -27,9 +27,4 @@ module.exports = {
       template: './src/index.html',
     }),
   ],
-  devServer: {
-    static: './dist', // <-- Use 'static' instead of 'contentBase'
-    port: 3000,
-    open: true,
-  },
 };
